@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Martel";
+  src: url("/fonts/Martel/Martel-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway/Raleway.ttf");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/RubikMonoOne/RubikMonoOne-Regular.ttf");
+}
+
+* {
+  font-family: "Raleway", system-ui;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: always;
+}
+
+h1, h2 {
+  font-family: "Rubik", system-ui;
+}
